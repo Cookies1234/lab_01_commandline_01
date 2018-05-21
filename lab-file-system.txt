@@ -96,7 +96,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/Guest/mtec1002/foo/bar/baz/qux
 
  
 ==========
@@ -107,7 +107,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/Guest/mtec1002
 
 
 ==========
@@ -119,7 +119,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+drwxr-xr-x  3 Guest  _guest  96 May 21 13:34 foo
+drwxr-xr-x  2 Guest  _guest  64 May 21 13:33 food
 
 
 ==========
@@ -130,7 +131,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/Guest
 
 
 ==========
@@ -142,7 +143,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/volumes
 
 ==========
 15. Type:
@@ -163,7 +164,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+-bash: cd: /unknown_folder: No such file or directory
 
 
 ==========
@@ -174,12 +175,12 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+V217-M14.local
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+/pwd
 
 
 ==========
@@ -202,7 +203,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+mkdir -p pineapple/orange/straberry/lemon
 
 
 ==========
@@ -210,7 +211,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 ==========
@@ -218,7 +219,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+5/21/18
 
 
 ==========
@@ -231,7 +232,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p foo/bar/baz
 
 ==========
 22. Change your directory so that you're in the inner most directory (baz)
@@ -239,20 +240,20 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd baz
 
 ==========
 23. Change your directory so that you're two directories up (foo)
 
 What command did you use?
 ----------
-
+cd ../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 ==========
 25. What command is used to print out your current working directory?
@@ -264,13 +265,13 @@ What command did you use?
 26. What flag do I pass to ls to print out all files?
 ----------
 
-
+ls
 
 ==========
 27. What's the shortcut for home directory?
 ----------
 
-
+cd ~
 
 ==========
 28. What's a pathname?
@@ -281,7 +282,7 @@ What command did you use?
 ==========
 29. What's a directory?
 ----------
-
+a folder you created
 
 
 ==========
